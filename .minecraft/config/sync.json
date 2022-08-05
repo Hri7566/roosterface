@@ -1,7 +1,7 @@
 {
   "enableInstantShellConstruction": false,
   "warnPlayerInsteadOfKilling": false,
-  "fingerstickDamage": 20.0,
+  "fingerstickDamage": 3.0,
   "hardcoreFingerstickDamage": 40.0,
   "shellConstructorCapacity": 256000,
   "shellStorageCapacity": 320,

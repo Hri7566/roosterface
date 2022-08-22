@@ -1,4 +1,4 @@
-[00:24:48] [INFO ] Hello, World! (You will only see this line once in console, during startup)
-[00:24:48] [INFO ] Loaded script startup_scripts:script.js in 0.102 s
-[00:24:48] [INFO ] Loaded 1/1 KubeJS startup scripts in 0.339 s
-[00:24:48] [ERR  ] Error occurred while handling event 'item.registry': TypeError: Cannot find function attackDamageBaselne in object dev.latvian.mods.kubejs.item.custom.SwordItemBuilder@1fdca5c4. (startup_scripts:script.js#12)
+[08:27:55] [INFO ] Hello, World! (You will only see this line once in console, during startup)
+[08:27:55] [INFO ] Loaded script startup_scripts:script.js in 0.096 s
+[08:27:55] [INFO ] Loaded 1/1 KubeJS startup scripts in 0.282 s
+[08:27:55] [ERR  ] Error occurred while handling event 'item.registry': TypeError: Cannot find function attackDamageBaselne in object dev.latvian.mods.kubejs.item.custom.SwordItemBuilder@7f34f1. (startup_scripts:script.js#12)

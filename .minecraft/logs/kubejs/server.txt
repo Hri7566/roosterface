@@ -1,5 +1,41 @@
-[00:36:45] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[00:36:45] [INFO ] Loaded script server_scripts:script.js in 0.002 s
-[00:36:45] [INFO ] Loaded 1/1 KubeJS server scripts in 0.005 s
-[00:36:45] [INFO ] Scripts loaded
-[00:36:45] [INFO ] Scanning recipes...
+[17:57:00] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[17:57:00] [INFO ] Loaded script server_scripts:script.js in 0.003 s
+[17:57:00] [INFO ] Loaded 1/1 KubeJS server scripts in 0.011 s
+[17:57:00] [INFO ] Scripts loaded
+[17:57:00] [INFO ] Scanning recipes...
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:warped_stem_window_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:warped_log_window_wall'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:warped_stem_window_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:warped_log_window_wall'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:birch_log_window_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:birch_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:birch_log_window_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:birch_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:warped_stem_fancy_knob_door_recipe[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:warped_log_fancy_wall'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:warped_stem_fancy_knob_door_recipe[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:warped_log_fancy_wall'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:crimson_stem_glass_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:crimson_stem_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:crimson_stem_glass_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:crimson_stem_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:dark_oak_4panel_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dark_oak_stem'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:dark_oak_4panel_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dark_oak_stem'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:jungle_log_glass_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:jungle_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:jungle_log_glass_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:jungle_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:birch_log_glass_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:birch_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:birch_log_glass_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:birch_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'powah:smelting/uraninite_from_raw[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Expected result to be a string, was an object ({"it...e"})
+[17:57:06] [WARN ] Failed to parse recipe powah:smelting/uraninite_from_raw[minecraft:smelting]: com.google.gson.JsonSyntaxException: Expected result to be a string, was an object ({"it...e"})
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:dark_oak_log_glass_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dark_oak_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:dark_oak_log_glass_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dark_oak_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:oak_log_window_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:oak_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:oak_log_window_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:oak_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:oak_log_glass_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:oak_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:oak_log_glass_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:oak_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:gold_block_door_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:gold_block_door'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:gold_block_door_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:gold_block_door'
+[17:57:06] [WARN ] Failed to parse recipe 'powah:smelting/uraninite_from_raw_blasting[minecraft:blasting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Expected result to be a string, was an object ({"it...e"})
+[17:57:06] [WARN ] Failed to parse recipe powah:smelting/uraninite_from_raw_blasting[minecraft:blasting]: com.google.gson.JsonSyntaxException: Expected result to be a string, was an object ({"it...e"})
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:acacia_log_glass_wall_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:acacia_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:acacia_log_glass_wall_recipe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:acacia_log_planks'
+[17:57:06] [WARN ] Failed to parse recipe 'exlinedoors:crimson_stem_fancy_knob_door_recipe[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:crimson_log_fancy_wall'
+[17:57:06] [WARN ] Failed to parse recipe exlinedoors:crimson_stem_fancy_knob_door_recipe[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'exlinedoors:crimson_log_fancy_wall'
+[17:57:07] [INFO ] Found 16977 recipes and 0 failed recipes in 690.1 ms
+[17:57:07] [INFO ] server_scripts:script.js:13: + kubejs:shaped: ['techreborn:rubber'] -> [Item.of('kubejs:suspicious_object', '{Damage:0}')]
+[17:57:07] [INFO ] Posted recipe events in 10.09 ms
+[17:57:07] [INFO ] Modified & removed recipes in 221.4 ms
+[17:57:07] [INFO ] Added recipes in 1.898 ms
+[17:57:07] [INFO ] Added 1 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

@@ -1,9 +1,9 @@
-[08:27:16] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.8
-[08:27:16] [ForkJoinPool-1-worker-6/WARN]: Mod create uses the version 0.5.0c-708 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[08:27:16] [ForkJoinPool-1-worker-6/WARN]: Mod registrate-fabric uses the version MC1.18.2-1.1.3 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'MC1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[08:27:16] [ForkJoinPool-1-worker-2/WARN]: The mod "sync" contains invalid entries in its mod json:
+[21:04:23] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.8
+[21:04:23] [ForkJoinPool-1-worker-6/WARN]: Mod create uses the version 0.5.0c-708 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:04:24] [ForkJoinPool-1-worker-6/WARN]: Mod registrate-fabric uses the version MC1.18.2-1.1.3 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'MC1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:04:24] [ForkJoinPool-1-worker-11/WARN]: The mod "sync" contains invalid entries in its mod json:
 - Unsupported root entry "includes" at line 52 column 13
-[08:27:17] [main/INFO]: Loading 276 mods:
+[21:04:25] [main/INFO]: Loading 271 mods:
 	- additionaladditions 4.0.5
 	- adorn 3.5.0+1.18.2
 	- advanced_runtime_resource_pack 0.5.7 via phonos
@@ -82,6 +82,7 @@
 	- disenchanter 0.1.6+1.18
 	- dripstone_fluid_lib 1.2.0 via milk_plus
 	- ductwork 0.3.2
+	- dynamicsoundfilters 1.3.0+1.18.2
 	- eatinganimationid 1.8
 	- edenring 0.5.2
 	- enhancedblockentities 0.7.1+1.18.2
@@ -157,6 +158,7 @@
 	- indium 1.0.6+mc1.18.2
 	- interference 1.3.9 via redbits
 	- inventorymanagement 1.0.3
+	- iris 1.2.6
 	- jade 5.99.6
 	- jamlib 0.0.5
 	- jankson 4.0.0+j1.2.0 via libgui
@@ -170,13 +172,7 @@
 	- kyrptconfig 1.4.6-1.18 via diggusmaximus
 	- lambdynlights 2.1.0+1.17
 	- lazydfu 0.1.2
-	- libblockattributes 0.10.2 via simple_pipes_dep_container
-	- libblockattributes_core 0.10.2 via libblockattributes
-	- libblockattributes_fluids 0.10.2 via libblockattributes
-	- libblockattributes_items 0.10.2 via libblockattributes
 	- libgui 5.4.2+1.18.2 via plantinajar
-	- libmultipart 0.7.2 via simple_pipes_dep_container
-	- libnetworkstack 0.6.0 via simple_pipes_dep_container
 	- libninepatch 1.1.0 via libgui
 	- lifts 1.4.1-BETA+1.18
 	- linkart 3.1.1-1.18.2
@@ -209,6 +205,7 @@
 	- notenoughanimations 1.6.0
 	- notenoughcrashes 4.1.6+1.18.2
 	- omega-config 1.2.3-1.18.1 via capes
+	- org_anarres_jcpp 1.4.14 via iris
 	- org_aperlambda_lambdajcommon 1.8.1 via spruceui
 	- org_jetbrains_kotlin_kotlin-reflect 1.7.10 via fabric-language-kotlin
 	- org_jetbrains_kotlin_kotlin-stdlib 1.7.10 via fabric-language-kotlin
@@ -253,8 +250,6 @@
 	- seedfix 1.0.1
 	- serialization_hooks 0.3.21 via porting_lib
 	- server_translations_api 1.4.9+1.18.2-rc1 via holograms
-	- simple_pipes 0.7.2 via simple_pipes_dep_container
-	- simple_pipes_dep_container 0.7.2
 	- skinlayers 1.4.6-mc1.18.2
 	- smart-recipes 0.2.1+1.18.2 via sync
 	- smoothboot 1.18.2-1.7.0
@@ -280,740 +275,813 @@
 	- world_cutters 1.0.0
 	- xaerominimap 22.12.0
 	- xaeroworldmap 1.26.1
-[08:27:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/MultiMC/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[08:27:18] [main/INFO]: Compatibility level set to JAVA_16
-[08:27:18] [main/INFO]: Compatibility level set to JAVA_17
-[08:27:18] [main/INFO]: Configuration loaded successfully after 265.1762ms
-[08:27:18] [main/INFO]: Successfully loaded configuration for C2ME
-[08:27:18] [main/INFO]: Initializing C2ME Compatibility Module
-[08:27:19] [main/INFO]: [MixinConfig] Not adding respawn_anchor_in_the_end.CheckIfCanSetSpawnMixin
-[08:27:19] [main/INFO]: [MixinConfig] Not adding no_treasure_enchantment_trading.CheckIfTradeableMixin
-[08:27:19] [main/INFO]: [MixinConfig] Not adding helper.CheckEnchantingPowerMixin
-[08:27:19] [main/INFO]: [MixinConfig] Not adding no_cured_villager_discount.BypassReputationGossipMixin
-[08:27:19] [main/INFO]: Preloading Debugify
-[08:27:19] [main/INFO]: Done.
-[08:27:19] [main/INFO]: [Fabrication] Reloading configs...
-[08:27:19] [main/INFO]: [Fabrication] Loading of features.ini done in 34.57 ms with 0 warnings
-[08:27:19] [main/WARN]: [Fabrication] Fabrication is about to inject into Mixin to add support for redirect tracking.
-[08:27:19] [main/WARN]: Overriding InjectionInfo for @Redirect with com.unascribed.fabrication.support.injection.TrackingRedirectInjectionInfo (previously org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo)
-[08:27:19] [main/WARN]: Reference map 'JamLib-refmap.json' for jamlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[08:27:19] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 2 override(s) found
-[08:27:20] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
-[08:27:20] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 0 override(s) found
-[08:27:20] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
-[08:27:20] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[08:27:21] [main/WARN]: Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed
-[08:27:21] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[08:27:21] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton, vmp]) disables it and children
-[08:27:22] [main/INFO]: Adding mixins: [None]
-[08:27:22] [main/INFO]: I used the json to destroy the json
-[08:27:22] [main/INFO]: Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
-[08:27:23] [main/INFO]: Smooth Boot config initialized
-[08:27:23] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
-[08:27:23] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
-[08:27:25] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on dripstone_fluid_lib.mixins.json:MinecraftClientMixin from mod dripstone_fluid_lib::handler$dnm000$dripstone_fluid_lib$handleParticles exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[08:27:28] [main/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$6 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$6)
-[08:27:30] [main/WARN]: Method overwrite conflict for setTranslation in flywheel.fabric.mixins.json:Matrix4fMixin from mod flywheel, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.Matrix4fMixin. Skipping method.
-[08:27:37] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
-[08:27:37] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
-[08:27:37] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
-[08:27:37] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
-[08:27:37] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
-[08:27:37] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
-[08:27:37] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
-[08:27:37] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
-[08:27:37] [main/INFO]: [bclib] Added Config bclib.recipes to auto sync (file hash)
-[08:27:38] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08:27:38] [Render thread/INFO]: Setting user: Hri7566
-[08:27:42] [Render thread/INFO]: imagine people still looking for these :hahayes:
-[08:27:42] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
-[08:27:42] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
-[08:27:42] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
-[08:27:42] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
-[08:27:42] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
-[08:27:42] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[08:27:43] [Render thread/INFO]: [betternether] =^..^=    BetterNether for 1.18.2    =^..^=
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:mana_burst
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:pixie
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:flame_ring
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:vine_ball
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:doppleganger
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:magic_landmine
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:spark
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:thrown_item
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:magic_missile
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:thorn_chakram
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:corporea_spark
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:ender_air_bottle
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:pool_minecart
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:pink_wither
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:player_mover
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:mana_storm
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:babylon_weapon
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:falling_star
-[08:27:47] [Render thread/ERROR]: No data fixer registered for botania:ender_air
-[08:27:47] [Render thread/INFO]: BYG registries bootstrapped
-[08:27:47] [Render thread/ERROR]: No data fixer registered for byg:boat
-[08:27:48] [Render thread/INFO]: Initializing BYG network...
-[08:27:48] [Render thread/INFO]: Initialized BYG network!
-[08:27:48] [Render thread/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled AerialAffinityEnchantment
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled AllowTooExpensive
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled AmethystNoteBlock
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Atlases
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled AutoRestock
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled AutomaticRecipeUnlock
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled AzaleaWood
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled BatBuckets
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled BeaconsHealMobs
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Beekeepers
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfEnderPearls
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfGunpowder
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfSugar
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Bookcases
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled CaveSpidersDropCobwebs
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Chairs
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ChickensDropFeathers
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ClearItemFrames
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled CollectionEnchantment
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ColoredBundles
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ColoredNetherPortals
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled CompassOverlay
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled CoralSeaLanterns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled CoralSquids
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Core
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusic
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled EditableSigns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled EndermitePowder
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtraBoats
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtraRecipes
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtraTrades
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ExtractEnchantments
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled GentlePotionParticles
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled GoatsDropMutton
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled GrindableArmor
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled HoverSorting
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled HusksDropSand
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled HusksSpawnUnderground
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedFortressLoot
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedMansionLoot
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedMineshafts
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled InventoryTidying
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Kilns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled LavaBucketDestroysItems
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled LowerNoteblockPitch
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Lumberjacks
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled MapTooltip
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Mooblooms
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled MorePortalFrames
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled NoCropTrampling
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled NoPetDamage
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled NoPotionGlint
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled NoSpyglassScope
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled OpenBothDoors
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ParrotsStayOnShoulder
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled PathToDirt
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled PlayerPressurePlates
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled PlayerState
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled PortableCrafting
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled QuickReplant
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled RaidHorns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneLanterns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneSand
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled RepairElytraFromLeather
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled RepairNetheriteFromScrap
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled RepairTridentsFromShards
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ShowRepairCost
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxDragDrop
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltip
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled SnowAccumulation
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled StackableEnchantedBooks
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled StackablePotions
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled StackableStews
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled StraysDropBlueIce
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled StraysSpawnUnderground
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled StrongerAnvils
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled TotemOfPreserving
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled TotemWorksFromInventory
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantBarrels
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantBars
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantBookshelves
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantChains
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantChests
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantLadders
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantLanterns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VariantMobTextures
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled VillagersFollowEmeraldBlocks
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled WanderingTraderMaps
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled WeatheringIron
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled WitchesDropLuck
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Enabled Woodcutters
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running AerialAffinityEnchantment
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running AllowTooExpensive
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running AmethystNoteBlock
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Atlases
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running AutoRestock
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running AutomaticRecipeUnlock
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running AzaleaWood
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running BatBuckets
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running BeaconsHealMobs
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Beekeepers
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running BlockOfEnderPearls
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running BlockOfGunpowder
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running BlockOfSugar
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Bookcases
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running CaveSpidersDropCobwebs
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Chairs
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ChickensDropFeathers
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ClearItemFrames
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running CollectionEnchantment
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ColoredBundles
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ColoredNetherPortals
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running CompassOverlay
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running CoralSeaLanterns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running CoralSquids
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Core
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusic
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running EditableSigns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running EndermitePowder
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ExtraBoats
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ExtraRecipes
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ExtraTrades
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ExtractEnchantments
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running GentlePotionParticles
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running GoatsDropMutton
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running GrindableArmor
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running HoverSorting
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running HusksDropSand
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running HusksSpawnUnderground
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ImprovedFortressLoot
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ImprovedMansionLoot
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ImprovedMineshafts
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running InventoryTidying
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Kilns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running LavaBucketDestroysItems
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running LowerNoteblockPitch
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Lumberjacks
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running MapTooltip
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Mooblooms
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running MorePortalFrames
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running NoCropTrampling
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running NoPetDamage
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running NoPotionGlint
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running NoSpyglassScope
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running OpenBothDoors
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ParrotsStayOnShoulder
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running PathToDirt
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running PlayerPressurePlates
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running PlayerState
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running PortableCrafting
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running QuickReplant
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running RaidHorns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running RedstoneLanterns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running RedstoneSand
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running RepairElytraFromLeather
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running RepairNetheriteFromScrap
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running RepairTridentsFromShards
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ShowRepairCost
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxDragDrop
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxTooltip
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running SnowAccumulation
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running StackableEnchantedBooks
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running StackablePotions
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running StackableStews
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running StraysDropBlueIce
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running StraysSpawnUnderground
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running StrongerAnvils
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running TotemOfPreserving
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running TotemWorksFromInventory
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantBarrels
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantBars
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantBookshelves
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantChains
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantChests
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantLadders
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantLanterns
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VariantMobTextures
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running VillagersFollowEmeraldBlocks
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running WanderingTraderMaps
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running WeatheringIron
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running WitchesDropLuck
-[08:27:49] [Render thread/INFO]: [ModuleLoader] Running Woodcutters
-[08:27:49] [Render thread/INFO]: Hello Fabric world!
-[08:27:49] [Render thread/INFO]: clickadv mod initialized
-[08:27:49] [Render thread/INFO]: [STDOUT]: Loading Collective (Fabric) version 4.36.
-[08:27:50] [Render thread/INFO]: Cooldown Coordinator library loaded.
-[08:27:51] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
-[08:27:52] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
-[08:27:52] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
-[08:27:52] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
-[08:27:52] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
-[08:27:53] [Render thread/INFO]: Saving config because the loaded bug fixes are different to stored json.
-[08:27:53] [Render thread/INFO]: Saving Debugify
-[08:27:53] [Render thread/INFO]: Successfully Debugify'd your game!
-[08:27:53] [Render thread/INFO]: Proudly fixes 14 bugs!
-[08:27:53] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\dungeon_door.json with id dimdoors:dungeon_door
-[08:27:53] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\gold_dimensional_door.json with id dimdoors:gold_dimensional_door
-[08:27:53] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\iron_dimensional_door.json with id dimdoors:iron_dimensional_door
-[08:27:53] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\oak_dimensional_door.json with id dimdoors:oak_dimensional_door
-[08:27:53] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\quartz_dimensional_door.json with id dimdoors:quartz_dimensional_door
-[08:27:53] [Render thread/INFO]: Ductwork makes the Dreamwork!
-[08:27:53] [Render thread/INFO]: [bclib] Added Config edenring.blocks to auto sync (file hash)
-[08:27:53] [Render thread/INFO]: [bclib] Added Config edenring.items to auto sync (file hash)
-[08:27:53] [Render thread/INFO]: [bclib] Added Config edenring.entities to auto sync (file hash)
-[08:27:53] [Render thread/INFO]: [bclib] Added Config edenring.recipes to auto sync (file hash)
-[08:27:53] [Render thread/INFO]: [bclib] Added Config edenring.recipes to auto sync (file hash)
-[08:27:53] [Render thread/INFO]: [bclib] Added Config edenring.biomes to auto sync (file hash)
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of dimensional_tools.ini done in 3.892 ms with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of block_logo.png done in 25.15 ms with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of block_logo.ini done in 26.65 ms with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of classic_block_drops.ini done in 1.551 ms with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of fscript.ini done in 1.748 ms with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of gear_components.ini done in 13.05 ms with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of item_despawn.ini done in 521.5 ?s with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of taggable_players.ini done in 5.687 ms with 0 warnings
-[08:27:54] [Render thread/INFO]: [Fabrication] Loading of yeet_recipes.ini done in 395.5 ?s with 0 warnings
-[08:27:54] [Render thread/WARN]: @Redirect conflict. Skipping lithium.mixins.json:alloc.entity_tracker.EntityTrackerMixin from mod lithium->@Redirect::useFasterCollection()Ljava/util/Set; with priority 1000, already redirected by krypton.mixins.json:shared.network.microopt.TacsTrackedEntityMixin from mod krypton->@Redirect::construct$useFastutil()Ljava/util/Set; with priority 1000
-[08:27:54] [Render thread/WARN]: Fastload may cause issues, report them to us instead of other mod authors
-[08:27:54] [Render thread/INFO]: Start loading plugin from jade
-[08:27:54] [Render thread/INFO]: Start loading plugin from jade
-[08:27:54] [Render thread/INFO]: Start loading plugin from jade
-[08:27:54] [Render thread/INFO]: JamLib has been initialized
-[08:27:54] [Render thread/INFO]: Compression will use Java 11, encryption will use Java
-[08:27:54] [Render thread/INFO]: Looking for KubeJS plugins...
-[08:27:54] [Render thread/INFO]: Found plugin source kubejs
-[08:27:54] [Render thread/INFO]: Found plugin source kubejs_create
-[08:27:54] [Render thread/INFO]: Found plugin source modern_industrialization
-[08:27:54] [Render thread/INFO]: Done in 21.68 ms
-[08:27:54] [Render thread/INFO]: Loaded common.properties
-[08:27:55] [Render thread/INFO]: Hello, World! (You will only see this line once in console, during startup)
-[08:27:55] [Render thread/INFO]: Loaded script startup_scripts:script.js in 0.096 s
-[08:27:55] [Render thread/INFO]: Loaded 1/1 KubeJS startup scripts in 0.282 s
-[08:27:55] [Render thread/ERROR]: Error occurred while handling event 'item.registry': TypeError: Cannot find function attackDamageBaselne in object dev.latvian.mods.kubejs.item.custom.SwordItemBuilder@7f34f1. (startup_scripts:script.js#12)
-[08:27:55] [Render thread/INFO]: Hello, World! (You will see this line every time client resources reload)
-[08:27:55] [Render thread/INFO]: Loaded script client_scripts:script.js in 0.001 s
-[08:27:55] [Render thread/INFO]: Loaded 1/1 KubeJS client scripts in 0.009 s
-[08:27:55] [Render thread/INFO]: Trying to read config file...
-[08:27:55] [Render thread/INFO]: A config file was found, loading it..
-[08:27:55] [Render thread/INFO]: Successfully loaded config file.
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwbridges
-[08:27:56] [Render thread/INFO]: Registering Mod Items for mcwbridges
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwdoors
-[08:27:56] [Render thread/INFO]: Registering Mod Items for mcwdoors
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwfences
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwlights
-[08:27:56] [Render thread/INFO]: Registering Paintings for mcwpaintings
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwpaths
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwroofs
-[08:27:56] [Render thread/INFO]: Registering Mod Items for mcwroofs
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwtrpdoors
-[08:27:56] [Render thread/INFO]: Registering Mod Items for mcwtrpdoors
-[08:27:56] [Render thread/INFO]: Registering ModBlocks for mcwwindows
-[08:27:56] [Render thread/INFO]: Registering Mod Items for mcwwindows
-[08:27:56] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
-[08:27:56] [Render thread/INFO]: Definitely not up to no good
-[08:27:57] [Render thread/INFO]: Setting up Nuclear Items
-[08:27:57] [Render thread/INFO]: Modern Industrialization setup done!
-[08:27:57] [Render thread/INFO]: [STDOUT]: You Can Put Your Plants In Jars Now!
-[08:27:57] [Render thread/INFO]: RedBits detected Patchouli! Adding guide book to loot tables...
-[08:27:57] [Render thread/INFO]: Redstone Bits config version 1
-[08:27:58] [Render thread/INFO]: Initializing RightClickHarvest...
-[08:27:58] [Render thread/INFO]: [REI] Config loaded.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider AdornReiClient [adorn] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider AdornReiServer [adorn] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by AppleSkin, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider CharmReiClientPlugin [charm] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider CharmReiServerPlugin [charm] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Half Doors, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider HalfDoorsREIPlugin [halfdoors] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Jade, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider REICompat [jade] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Oxidized, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider OxidizedREIPlugin [oxidized] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Roughly Enough Resources, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:58] [Render thread/INFO]: [REI] Registered plugin provider PluginEntry [roughlyenoughresources] for REIPlugin
-[08:27:58] [Render thread/WARN]: The entrypoint used by Tech Reborn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider ReiPlugin [techreborn] for REIPlugin
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIPlugin
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Applied Energistics 2, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider AE2 [ae2] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by AE2WTLib, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider ae2wtlib [ae2wtlib] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Alloy Forgery, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider AlloyForgeryPlugin [alloy_forgery] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Better End, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Chipped, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider REIChippedPlugin [chipped] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Disenchanter, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider DisenchanterReiPlugin [disenchanter] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by KubeJS, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider KubeJSREIPlugin [kubejs] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider MIREIPlugin [modern_industrialization] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider FluidFuelsPlugin [modern_industrialization] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider ForgeHammerRecipePlugin [modern_industrialization] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider MachinesPlugin [modern_industrialization] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider NeutronInteractionPlugin [modern_industrialization] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by o?o, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by SimplePipeTest, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [simple_pipes] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Botania, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider BotaniaREIPlugin [botania] for REIPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Sandwichable, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider SandwichableREI [sandwichable] for REIPlugin
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider AdornReiServer [adorn] for REIServerPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by AppleSkin, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider CharmReiServerPlugin [charm] for REIServerPlugin
-[08:27:59] [Render thread/WARN]: The entrypoint used by Half Doors, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Jade, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Oxidized, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Roughly Enough Resources, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Tech Reborn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Applied Energistics 2, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by AE2WTLib, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Alloy Forgery, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Better End, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Chipped, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Disenchanter, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by KubeJS, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by o?o, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by SimplePipeTest, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Botania, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/WARN]: The entrypoint used by Sandwichable, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[08:27:59] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[08:27:59] [Render thread/INFO]: [RER] RoughlyEnoughPacketSize?  Possibly.
-[08:27:59] [Render thread/INFO]: Loaded seedfix v1.0.1 by Justsnoopy30!
-[08:28:00] [Render thread/INFO]: [Snow Pig] Snowing The Pig!
-[08:28:00] [Render thread/INFO]: TechReborn setup done!
-[08:28:00] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\overworld\byg-overworld-biomes.json5" was read.
-[08:28:00] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[08:28:00] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[08:28:00] [Render thread/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
-[08:28:00] [Render thread/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
-[08:28:00] [Render thread/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
-[08:28:00] [Render thread/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7439 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7519 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7438 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7494 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7618 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7597 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7617 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7640 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7495 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7472 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7496 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2755 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2762 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2698 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2809 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2644 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2730 not found for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDERR]: Raknetify: Warning: unknown packet type alexiil/mc/lib/net/impl/CompactDataPacketToServer (alexiil.mc.lib.net.impl.CompactDataPacketToServer) for raknet multi-channel
-[08:28:00] [Render thread/INFO]: [STDERR]: Raknetify: Warning: unknown packet type alexiil/mc/lib/net/impl/CompactDataPacketToClient (alexiil.mc.lib.net.impl.CompactDataPacketToClient) for raknet multi-channel
-[08:28:00] [Render thread/INFO]: REI Found
-[08:28:02] [Render thread/INFO]: [BetterF3] Loading...
-[08:28:02] [Render thread/INFO]: [BetterF3] All done!
-[08:28:02] [Render thread/INFO]: BYG: "Client Setup" Event Complete!
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled AtlasesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled AzaleaWoodClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled BookcasesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled ChairsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled ClearItemFramesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled ColoredBundlesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled ColoredNetherPortalsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled CompassOverlayClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled CoralSquidsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled CoreClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusicClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled EndermitePowderClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled ExtraBoatsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled ExtractEnchantmentsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled HoverSortingClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled InventoryTidyingClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled KilnsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled MapTooltipClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled MoobloomsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled PlayerStateClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled PortableCraftingClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneLanternsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltipClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled VariantBarsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled VariantChainsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled VariantChestsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled VariantLaddersClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled VariantLanternsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled VariantMobTexturesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Enabled WoodcuttersClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running AtlasesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running AzaleaWoodClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running BookcasesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running ChairsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running ClearItemFramesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running ColoredBundlesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running ColoredNetherPortalsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running CompassOverlayClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running CoralSquidsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running CoreClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusicClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running EndermitePowderClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running ExtraBoatsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running ExtractEnchantmentsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running HoverSortingClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running InventoryTidyingClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running KilnsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running MapTooltipClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running MoobloomsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running PlayerStateClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running PortableCraftingClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running RedstoneLanternsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxTooltipClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running VariantBarsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running VariantChainsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running VariantChestsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running VariantLaddersClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running VariantLanternsClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running VariantMobTexturesClient
-[08:28:03] [Render thread/INFO]: [ModuleLoader] Running WoodcuttersClient
-[08:28:04] [Render thread/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on magna.mixins.json:WorldRendererMixin from mod magna::localvar$gkm000$appendBlockBreakingProgressions exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[08:28:04] [Render thread/INFO]: Re-caching descriptions because json doesn't match config.
-[08:28:04] [Render thread/INFO]: Saving Description Cache...
-[08:28:04] [Render thread/INFO]: Cache empty. Getting descriptions and saving in a new thread.
-[08:28:04] [ForkJoinPool.commonPool-worker-3/INFO]: Caching bug descriptions
-[08:28:04] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[08:28:04] [Render thread/INFO]: No shaders mod detected.
-[08:28:04] [Render thread/INFO]: JamLib has been initialized on the client
-[08:28:04] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack ?
-[08:28:04] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
-[08:28:04] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
-[08:28:04] [Render thread/INFO]: [LambDynLights] Configuration loaded.
-[08:28:04] [Render thread/INFO]: Trying to load optifine compat!
-[08:28:04] [Render thread/INFO]: Optifine not found, not loading compatibility!
-[08:28:04] [Render thread/INFO]: Modern Industrialization client setup done!
-[08:28:05] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider AdornReiClient [adorn] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/WARN]: The entrypoint used by AppleSkin, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider CharmReiClientPlugin [charm] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/WARN]: The entrypoint used by Half Doors, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider HalfDoorsREIPlugin [halfdoors] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Jade, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider REICompat [jade] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Oxidized, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider OxidizedREIPlugin [oxidized] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Roughly Enough Resources, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider PluginEntry [roughlyenoughresources] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Tech Reborn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider ReiPlugin [techreborn] for REIClientPlugin
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIClientPlugin
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Applied Energistics 2, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider AE2 [ae2] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by AE2WTLib, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider ae2wtlib [ae2wtlib] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Alloy Forgery, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider AlloyForgeryPlugin [alloy_forgery] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Better End, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Chipped, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider REIChippedPlugin [chipped] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Disenchanter, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider DisenchanterReiPlugin [disenchanter] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by KubeJS, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider KubeJSREIPlugin [kubejs] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider MIREIPlugin [modern_industrialization] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider FluidFuelsPlugin [modern_industrialization] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider ForgeHammerRecipePlugin [modern_industrialization] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider MachinesPlugin [modern_industrialization] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider NeutronInteractionPlugin [modern_industrialization] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by o?o, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by SimplePipeTest, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [simple_pipes] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Botania, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider BotaniaREIPlugin [botania] for REIClientPlugin
-[08:28:05] [Render thread/WARN]: The entrypoint used by Sandwichable, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
-[08:28:05] [Render thread/INFO]: [REI] Registered plugin provider SandwichableREI [sandwichable] for REIClientPlugin
-[08:28:05] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
-[08:28:07] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
-[08:28:08] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
-[08:28:08] [Render thread/INFO]: Loaded client.properties
-[08:28:09] [Render thread/INFO]: ARRP register - before vanilla
-[08:28:09] [Render thread/INFO]: ARRP register - after vanilla
-[08:28:10] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\growing-patterns.json5" was read.
-[08:28:18] [Render thread/INFO]: Narrator library for x64 successfully loaded
-[08:28:18] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Additional Additions, Adorn, Runtime Resource Pack, Advancements Debug, Applied Energistics 2, AE2WTLib, Alloy Forgery, Alternate Current, Animatica, AppleSkin, Arcanus, AutoTag, Axes Are Weapons, BCLib, Better End, BetterF3, Better Nether, Better Third Person, Blockus, Borderless Mining, Botania, Oh The Biomes You'll Go, Concurrent Chunk Management Engine, CaffeineConfig, Capes, Cardinal Components API (base), Cardinal Components API (chunks), Cardinal Components API (entities), Cardinal Components API (items), Cardinal Components API (world saves), Cardinal Components API (worlds), Cardinal Ice Boats, Carpet Mod, Carpet Extra, Charm, Chest Tracker, Chipped, Chromatic Currents, Clickable Advancements Mod, Cloth Config v6, CC: Restitched, conditional mixin, Continuity, Cooldown Coordinator, Crawl, Create, DarkPaintings, Diggus Maximus, DimensionalDoors, Disable Custom Worlds Advice, Disenchanter, Dripstone Fluid Lib, Ductwork, Eating Animation, EdenRing, Enhanced Block Entities, EntityCulling-Fabric, Exline's Doors, Experience Bottler, Explorer's Compass, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Language Kotlin, Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabrication, Fabric Loader, Fake Player API, Falling Leaves, Fast Load, Feature NBT Deadlock Be Gone - Fabric, Flywheel, Forge Config API Port, Gargantuan, Half Doors, Hookshot, Icarus, Indium, Interference API, Inventory Management, Jade, JamLib, Jankson, JsonEM, Kanos Config, Krypton, KubeJS, Kyrpt Config, LambDynamicLights, LazyDFU, LibBlockAttributes, LibBlockAttributes (Core), LibBlockAttributes (Fluids), LibBlockAttributes (Items), LibGui, LibMultiPart, Lib Network Stack, Lifts, Linkart, Lithium, Logical Zoom, Magna, Macaw's Bridges, Macaw's Doors, Macaw's Fences and Walls, Macaw's Lights and Lamps, Macaw's Paintings, Macaw's Paths and Pavings, Macaw's Roofs, Macaw's Trapdoors, Macaw's Windows, Memory Leak Fix, Milk Lib, Milk+, Manningham Mills, Mod-erate Loading Screen, Modern Industrialization, Mod Menu, More Culling, Nature's Compass, No More Useless Keys, No Indium?, NotEnoughAnimations, Not Enough Crashes, OmegaConfig, o?o, Oxidized, Patchouli, Pehkui, Phonos, Plant In A Jar, Pal, Porting Lib, Powah!, Presence Footsteps, Pride Lib, Reach Entity Attributes, Reborn Core, Red Bits, Redstone Bits, Reese's Sodium Options, Registrate for Fabric, Repurposed Structures, Right Click Harvest, Roughly Enough Items, Roughly Enough Resources, Sandwichable, Satin, Serialization Hooks, SimplePipeTest, SimplePipeTest (Dependency Container), 3d Skin Layers, Smart Recipes, Smooth Boot, Show Me What You Got, Snow Pig, Sodium, Sodium Extra, spark, SpruceUI, Starlight, Step Height Entity Attribute, Sync (Fabric), Tax Free Levels, Energy, Tech Reborn, TerraBlender, Terraform Wood API (v1), Trinkets, Twigs, Very Many Players, Drip Sounds, Where Is It, World Cutters, Xaero's Minimap, Xaero's World Map), KubeJS Resource Pack [assets]
-[08:28:18] [Render thread/INFO]: closing rrp minecraft:phonos_data
-[08:28:18] [Render thread/INFO]: closing rrp minecraft:phonos_assets
-[08:28:18] [Render thread/INFO]: ARRP register - before vanilla
-[08:28:18] [Render thread/INFO]: ARRP register - after vanilla
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: This line is printed by the mod mixin!
-[08:28:19] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\settings.json5" was read.
-[08:28:19] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\surface_rules\nether_surface_rules.json5" was read.
-[08:28:19] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\surface_rules\end_surface_rules.json5" was read.
-[08:28:19] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\surface_rules\overworld_surface_rules.json5" was read.
-[08:28:20] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_498::method_25394(Lnet/minecraft/class_4587;IIF)V has incompatible changes at opcode 24 in callback bclib.mixins.client.json:SignEditScreenMixin from mod bclib->@Inject::bclib_checkOffset(Lnet/minecraft/class_4587;IIFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;FLnet/minecraft/class_2680;ZZF)V.
+[21:04:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/MultiMC/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[21:04:26] [main/INFO]: Compatibility level set to JAVA_16
+[21:04:26] [main/INFO]: Compatibility level set to JAVA_17
+[21:04:26] [main/INFO]: Configuration loaded successfully after 312.2312ms
+[21:04:26] [main/INFO]: Successfully loaded configuration for C2ME
+[21:04:26] [main/INFO]: Initializing C2ME Compatibility Module
+[21:04:27] [main/INFO]: [MixinConfig] Not adding respawn_anchor_in_the_end.CheckIfCanSetSpawnMixin
+[21:04:27] [main/INFO]: [MixinConfig] Not adding no_treasure_enchantment_trading.CheckIfTradeableMixin
+[21:04:27] [main/INFO]: [MixinConfig] Not adding helper.CheckEnchantingPowerMixin
+[21:04:27] [main/INFO]: [MixinConfig] Not adding no_cured_villager_discount.BypassReputationGossipMixin
+[21:04:27] [main/INFO]: Preloading Debugify
+[21:04:27] [main/INFO]: Done.
+[21:04:27] [main/INFO]: [Fabrication] Reloading configs...
+[21:04:27] [main/INFO]: [Fabrication] Loading of features.ini done in 61.34 ms with 0 warnings
+[21:04:27] [main/WARN]: [Fabrication] Fabrication is about to inject into Mixin to add support for redirect tracking.
+[21:04:27] [main/WARN]: Overriding InjectionInfo for @Redirect with com.unascribed.fabrication.support.injection.TrackingRedirectInjectionInfo (previously org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo)
+[21:04:27] [main/WARN]: Reference map 'JamLib-refmap.json' for jamlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:04:27] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 2 override(s) found
+[21:04:28] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[21:04:28] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[21:04:28] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[21:04:28] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[21:04:29] [main/WARN]: Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed
+[21:04:29] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[21:04:29] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton, vmp]) disables it and children
+[21:04:30] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[21:04:30] [main/INFO]: Adding mixins: [None]
+[21:04:30] [main/WARN]: Error loading class: net/coderbot/iris/layer/IrisRenderTypeWrapper (java.lang.ClassNotFoundException: net/coderbot/iris/layer/IrisRenderTypeWrapper)
+[21:04:30] [main/WARN]: @Mixin target net.coderbot.iris.layer.IrisRenderTypeWrapper was not found mixins.satin.client.json:iris.IrisRenderLayerWrapperMixin from mod satin
+[21:04:30] [main/INFO]: I used the json to destroy the json
+[21:04:30] [main/INFO]: Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
+[21:04:31] [main/INFO]: Smooth Boot config initialized
+[21:04:31] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[21:04:31] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[21:04:33] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on dripstone_fluid_lib.mixins.json:MinecraftClientMixin from mod dripstone_fluid_lib::handler$dnm000$dripstone_fluid_lib$handleParticles exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:04:36] [main/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$6 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$6)
+[21:04:37] [main/WARN]: Method overwrite conflict for setTranslation in flywheel.fabric.mixins.json:Matrix4fMixin from mod flywheel, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.Matrix4fMixin. Skipping method.
+[21:04:43] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
+[21:04:43] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[21:04:43] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[21:04:43] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
+[21:04:44] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[21:04:44] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[21:04:44] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[21:04:44] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[21:04:44] [main/INFO]: [bclib] Added Config bclib.recipes to auto sync (file hash)
+[21:04:44] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder from mod sodium, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
+[21:04:44] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:04:45] [Render thread/INFO]: Setting user: Hri7566
+[21:04:47] [Render thread/INFO]: imagine people still looking for these :hahayes:
+[21:04:48] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[21:04:48] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[21:04:48] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[21:04:48] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[21:04:48] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[21:04:48] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[21:04:49] [Render thread/INFO]: [betternether] =^..^=    BetterNether for 1.18.2    =^..^=
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:mana_burst
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:pixie
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:flame_ring
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:vine_ball
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:doppleganger
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:magic_landmine
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:spark
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:thrown_item
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:magic_missile
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:thorn_chakram
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:corporea_spark
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:ender_air_bottle
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:pool_minecart
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:pink_wither
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:player_mover
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:mana_storm
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:babylon_weapon
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:falling_star
+[21:04:52] [Render thread/ERROR]: No data fixer registered for botania:ender_air
+[21:04:53] [Render thread/INFO]: BYG registries bootstrapped
+[21:04:53] [Render thread/ERROR]: No data fixer registered for byg:boat
+[21:04:54] [Render thread/INFO]: Initializing BYG network...
+[21:04:54] [Render thread/INFO]: Initialized BYG network!
+[21:04:54] [Render thread/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled AerialAffinityEnchantment
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled AllowTooExpensive
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled AmethystNoteBlock
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled Atlases
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled AutoRestock
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled AutomaticRecipeUnlock
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled AzaleaWood
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled BatBuckets
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled BeaconsHealMobs
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled Beekeepers
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfEnderPearls
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfGunpowder
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled BlockOfSugar
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled Bookcases
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled CaveSpidersDropCobwebs
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled Chairs
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ChickensDropFeathers
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ClearItemFrames
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled CollectionEnchantment
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ColoredBundles
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ColoredNetherPortals
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled CompassOverlay
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled CoralSeaLanterns
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled CoralSquids
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled Core
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusic
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled EditableSigns
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled EndermitePowder
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ExtraBoats
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ExtraRecipes
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ExtraTrades
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ExtractEnchantments
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled GentlePotionParticles
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled GoatsDropMutton
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled GrindableArmor
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled HoverSorting
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled HusksDropSand
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled HusksSpawnUnderground
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedFortressLoot
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedMansionLoot
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled ImprovedMineshafts
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled InventoryTidying
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled Kilns
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled LavaBucketDestroysItems
+[21:04:54] [Render thread/INFO]: [ModuleLoader] Enabled LowerNoteblockPitch
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled Lumberjacks
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled MapTooltip
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled Mooblooms
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled MorePortalFrames
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled NoCropTrampling
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled NoPetDamage
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled NoPotionGlint
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled NoSpyglassScope
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled OpenBothDoors
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled ParrotsStayOnShoulder
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled PathToDirt
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled PlayerPressurePlates
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled PlayerState
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled PortableCrafting
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled QuickReplant
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled RaidHorns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneLanterns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneSand
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled RepairElytraFromLeather
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled RepairNetheriteFromScrap
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled RepairTridentsFromShards
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled ShowRepairCost
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxDragDrop
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltip
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled SnowAccumulation
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled StackableEnchantedBooks
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled StackablePotions
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled StackableStews
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled StraysDropBlueIce
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled StraysSpawnUnderground
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled StrongerAnvils
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled TotemOfPreserving
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled TotemWorksFromInventory
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantBarrels
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantBars
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantBookshelves
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantChains
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantChests
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantLadders
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantLanterns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VariantMobTextures
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled VillagersFollowEmeraldBlocks
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled WanderingTraderMaps
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled WeatheringIron
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled WitchesDropLuck
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Enabled Woodcutters
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running AerialAffinityEnchantment
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running AllowTooExpensive
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running AmethystNoteBlock
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Atlases
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running AutoRestock
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running AutomaticRecipeUnlock
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running AzaleaWood
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running BatBuckets
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running BeaconsHealMobs
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Beekeepers
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running BlockOfEnderPearls
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running BlockOfGunpowder
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running BlockOfSugar
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Bookcases
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running CaveSpidersDropCobwebs
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Chairs
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ChickensDropFeathers
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ClearItemFrames
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running CollectionEnchantment
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ColoredBundles
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ColoredNetherPortals
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running CompassOverlay
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running CoralSeaLanterns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running CoralSquids
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Core
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusic
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running EditableSigns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running EndermitePowder
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ExtraBoats
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ExtraRecipes
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ExtraTrades
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ExtractEnchantments
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running GentlePotionParticles
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running GoatsDropMutton
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running GrindableArmor
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running HoverSorting
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running HusksDropSand
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running HusksSpawnUnderground
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ImprovedFortressLoot
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ImprovedMansionLoot
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ImprovedMineshafts
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running InventoryTidying
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Kilns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running LavaBucketDestroysItems
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running LowerNoteblockPitch
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Lumberjacks
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running MapTooltip
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Mooblooms
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running MorePortalFrames
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running NoCropTrampling
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running NoPetDamage
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running NoPotionGlint
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running NoSpyglassScope
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running OpenBothDoors
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ParrotsStayOnShoulder
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running PathToDirt
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running PlayerPressurePlates
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running PlayerState
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running PortableCrafting
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running QuickReplant
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running RaidHorns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running RedstoneLanterns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running RedstoneSand
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running RepairElytraFromLeather
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running RepairNetheriteFromScrap
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running RepairTridentsFromShards
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ShowRepairCost
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxDragDrop
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxTooltip
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running SnowAccumulation
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running StackableEnchantedBooks
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running StackablePotions
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running StackableStews
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running StraysDropBlueIce
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running StraysSpawnUnderground
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running StrongerAnvils
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running TotemOfPreserving
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running TotemWorksFromInventory
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantBarrels
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantBars
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantBookshelves
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantChains
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantChests
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantLadders
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantLanterns
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VariantMobTextures
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running VillagersFollowEmeraldBlocks
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running WanderingTraderMaps
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running WeatheringIron
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running WitchesDropLuck
+[21:04:55] [Render thread/INFO]: [ModuleLoader] Running Woodcutters
+[21:04:55] [Render thread/INFO]: Hello Fabric world!
+[21:04:55] [Render thread/INFO]: clickadv mod initialized
+[21:04:55] [Render thread/INFO]: [STDOUT]: Loading Collective (Fabric) version 4.36.
+[21:04:55] [Render thread/INFO]: Cooldown Coordinator library loaded.
+[21:04:57] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[21:04:57] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[21:04:57] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[21:04:57] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[21:04:57] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[21:04:58] [Render thread/INFO]: Saving config because the loaded bug fixes are different to stored json.
+[21:04:58] [Render thread/INFO]: Saving Debugify
+[21:04:58] [Render thread/INFO]: Successfully Debugify'd your game!
+[21:04:58] [Render thread/INFO]: Proudly fixes 14 bugs!
+[21:04:59] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\dungeon_door.json with id dimdoors:dungeon_door
+[21:04:59] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\gold_dimensional_door.json with id dimdoors:gold_dimensional_door
+[21:04:59] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\iron_dimensional_door.json with id dimdoors:iron_dimensional_door
+[21:04:59] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\oak_dimensional_door.json with id dimdoors:oak_dimensional_door
+[21:04:59] [Render thread/INFO]: Loaded door json from F:\MultiMC\instances\roosterface\.minecraft\config\dimdoors\doors\quartz_dimensional_door.json with id dimdoors:quartz_dimensional_door
+[21:04:59] [Render thread/INFO]: Ductwork makes the Dreamwork!
+[21:04:59] [Render thread/INFO]: [bclib] Added Config edenring.blocks to auto sync (file hash)
+[21:04:59] [Render thread/INFO]: [bclib] Added Config edenring.items to auto sync (file hash)
+[21:04:59] [Render thread/INFO]: [bclib] Added Config edenring.entities to auto sync (file hash)
+[21:04:59] [Render thread/INFO]: [bclib] Added Config edenring.recipes to auto sync (file hash)
+[21:04:59] [Render thread/INFO]: [bclib] Added Config edenring.recipes to auto sync (file hash)
+[21:04:59] [Render thread/INFO]: [bclib] Added Config edenring.biomes to auto sync (file hash)
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of dimensional_tools.ini done in 25.76 ms with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of block_logo.png done in 31.45 ms with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of block_logo.ini done in 45.81 ms with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of classic_block_drops.ini done in 2.423 ms with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of fscript.ini done in 2.941 ms with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of gear_components.ini done in 16.03 ms with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of item_despawn.ini done in 874.2 ?s with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of taggable_players.ini done in 14.45 ms with 0 warnings
+[21:04:59] [Render thread/INFO]: [Fabrication] Loading of yeet_recipes.ini done in 14.19 ms with 0 warnings
+[21:05:00] [Render thread/WARN]: @Redirect conflict. Skipping lithium.mixins.json:alloc.entity_tracker.EntityTrackerMixin from mod lithium->@Redirect::useFasterCollection()Ljava/util/Set; with priority 1000, already redirected by krypton.mixins.json:shared.network.microopt.TacsTrackedEntityMixin from mod krypton->@Redirect::construct$useFastutil()Ljava/util/Set; with priority 1000
+[21:05:00] [Render thread/WARN]: Fastload may cause issues, report them to us instead of other mod authors
+[21:05:00] [Render thread/INFO]: Start loading plugin from jade
+[21:05:00] [Render thread/INFO]: Start loading plugin from jade
+[21:05:00] [Render thread/INFO]: Start loading plugin from jade
+[21:05:00] [Render thread/INFO]: JamLib has been initialized
+[21:05:00] [Render thread/INFO]: Compression will use Java 11, encryption will use Java
+[21:05:00] [Render thread/INFO]: Looking for KubeJS plugins...
+[21:05:00] [Render thread/INFO]: Found plugin source kubejs
+[21:05:00] [Render thread/INFO]: Found plugin source kubejs_create
+[21:05:00] [Render thread/INFO]: Found plugin source modern_industrialization
+[21:05:00] [Render thread/INFO]: Done in 30.54 ms
+[21:05:00] [Render thread/INFO]: Loaded common.properties
+[21:05:01] [Render thread/INFO]: Hello, World! (You will only see this line once in console, during startup)
+[21:05:01] [Render thread/INFO]: Loaded script startup_scripts:script.js in 0.102 s
+[21:05:01] [Render thread/INFO]: Loaded 1/1 KubeJS startup scripts in 0.304 s
+[21:05:01] [Render thread/ERROR]: Error occurred while handling event 'item.registry': TypeError: Cannot find function attackDamageBaselne in object dev.latvian.mods.kubejs.item.custom.SwordItemBuilder@45ee5cd5. (startup_scripts:script.js#12)
+[21:05:01] [Render thread/INFO]: Hello, World! (You will see this line every time client resources reload)
+[21:05:01] [Render thread/INFO]: Loaded script client_scripts:script.js in 0.002 s
+[21:05:01] [Render thread/INFO]: Loaded 1/1 KubeJS client scripts in 0.017 s
+[21:05:01] [Render thread/INFO]: Trying to read config file...
+[21:05:01] [Render thread/INFO]: A config file was found, loading it..
+[21:05:01] [Render thread/INFO]: Successfully loaded config file.
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwbridges
+[21:05:02] [Render thread/INFO]: Registering Mod Items for mcwbridges
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwdoors
+[21:05:02] [Render thread/INFO]: Registering Mod Items for mcwdoors
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwfences
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwlights
+[21:05:02] [Render thread/INFO]: Registering Paintings for mcwpaintings
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwpaths
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwroofs
+[21:05:02] [Render thread/INFO]: Registering Mod Items for mcwroofs
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwtrpdoors
+[21:05:02] [Render thread/INFO]: Registering Mod Items for mcwtrpdoors
+[21:05:02] [Render thread/INFO]: Registering ModBlocks for mcwwindows
+[21:05:02] [Render thread/INFO]: Registering Mod Items for mcwwindows
+[21:05:02] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[21:05:02] [Render thread/INFO]: Definitely not up to no good
+[21:05:03] [Render thread/INFO]: Setting up Nuclear Items
+[21:05:03] [Render thread/INFO]: Modern Industrialization setup done!
+[21:05:04] [Render thread/INFO]: [STDOUT]: You Can Put Your Plants In Jars Now!
+[21:05:04] [Render thread/INFO]: RedBits detected Patchouli! Adding guide book to loot tables...
+[21:05:04] [Render thread/INFO]: Redstone Bits config version 1
+[21:05:04] [Render thread/INFO]: Initializing RightClickHarvest...
+[21:05:05] [Render thread/INFO]: [REI] Config loaded.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider AdornReiClient [adorn] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider AdornReiServer [adorn] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by AppleSkin, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider CharmReiClientPlugin [charm] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider CharmReiServerPlugin [charm] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Half Doors, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider HalfDoorsREIPlugin [halfdoors] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Jade, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider REICompat [jade] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Oxidized, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider OxidizedREIPlugin [oxidized] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Roughly Enough Resources, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider PluginEntry [roughlyenoughresources] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Tech Reborn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider ReiPlugin [techreborn] for REIPlugin
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIPlugin
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Applied Energistics 2, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider AE2 [ae2] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by AE2WTLib, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider ae2wtlib [ae2wtlib] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Alloy Forgery, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider AlloyForgeryPlugin [alloy_forgery] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Better End, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Chipped, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider REIChippedPlugin [chipped] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Disenchanter, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider DisenchanterReiPlugin [disenchanter] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by KubeJS, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider KubeJSREIPlugin [kubejs] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider MIREIPlugin [modern_industrialization] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider FluidFuelsPlugin [modern_industrialization] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider ForgeHammerRecipePlugin [modern_industrialization] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider MachinesPlugin [modern_industrialization] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider NeutronInteractionPlugin [modern_industrialization] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by o?o, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Botania, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider BotaniaREIPlugin [botania] for REIPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Sandwichable, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider SandwichableREI [sandwichable] for REIPlugin
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider AdornReiServer [adorn] for REIServerPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by AppleSkin, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider CharmReiServerPlugin [charm] for REIServerPlugin
+[21:05:05] [Render thread/WARN]: The entrypoint used by Half Doors, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Jade, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Oxidized, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Roughly Enough Resources, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Tech Reborn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Applied Energistics 2, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by AE2WTLib, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Alloy Forgery, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Better End, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Chipped, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Disenchanter, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by KubeJS, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by o?o, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Botania, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/WARN]: The entrypoint used by Sandwichable, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[21:05:05] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[21:05:05] [Render thread/INFO]: [RER] RoughlyEnoughPacketSize?  Possibly.
+[21:05:05] [Render thread/INFO]: Loaded seedfix v1.0.1 by Justsnoopy30!
+[21:05:05] [Render thread/INFO]: [Snow Pig] Snowing The Pig!
+[21:05:06] [Render thread/INFO]: TechReborn setup done!
+[21:05:06] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\overworld\byg-overworld-biomes.json5" was read.
+[21:05:06] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:05:06] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[21:05:06] [Render thread/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[21:05:06] [Render thread/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[21:05:06] [Render thread/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[21:05:06] [Render thread/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7439 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7519 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7438 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7494 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7618 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7597 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7617 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7640 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7495 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7472 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7496 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2755 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2762 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2698 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2809 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2644 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2730 not found for raknet multi-channel
+[21:05:06] [Render thread/INFO]: REI Found
+[21:05:08] [Render thread/INFO]: [BetterF3] Loading...
+[21:05:08] [Render thread/INFO]: [BetterF3] All done!
+[21:05:08] [Render thread/INFO]: BYG: "Client Setup" Event Complete!
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled AtlasesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled AzaleaWoodClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled BookcasesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled ChairsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled ClearItemFramesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled ColoredBundlesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled ColoredNetherPortalsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled CompassOverlayClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled CoralSquidsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled CoreClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled DiscsStopBackgroundMusicClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled EndermitePowderClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled ExtraBoatsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled ExtractEnchantmentsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled HoverSortingClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled InventoryTidyingClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled KilnsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled MapTooltipClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled MoobloomsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled PlayerStateClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled PortableCraftingClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled RedstoneLanternsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled ShulkerBoxTooltipClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled VariantBarsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled VariantChainsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled VariantChestsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled VariantLaddersClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled VariantLanternsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled VariantMobTexturesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Enabled WoodcuttersClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running AtlasesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running AzaleaWoodClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running BookcasesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running ChairsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running ClearItemFramesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running ColoredBundlesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running ColoredNetherPortalsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running CompassOverlayClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running CoralSquidsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running CoreClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running DiscsStopBackgroundMusicClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running EndermitePowderClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running ExtraBoatsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running ExtractEnchantmentsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running HoverSortingClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running InventoryTidyingClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running KilnsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running MapTooltipClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running MoobloomsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running PlayerStateClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running PortableCraftingClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running RedstoneLanternsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running ShulkerBoxTooltipClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running VariantBarsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running VariantChainsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running VariantChestsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running VariantLaddersClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running VariantLanternsClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running VariantMobTexturesClient
+[21:05:09] [Render thread/INFO]: [ModuleLoader] Running WoodcuttersClient
+[21:05:10] [Render thread/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on magna.mixins.json:WorldRendererMixin from mod magna::localvar$hac000$appendBlockBreakingProgressions exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:05:10] [Render thread/INFO]: Re-caching descriptions because json doesn't match config.
+[21:05:10] [Render thread/INFO]: Saving Description Cache...
+[21:05:10] [Render thread/INFO]: Cache empty. Getting descriptions and saving in a new thread.
+[21:05:10] [ForkJoinPool.commonPool-worker-11/INFO]: Caching bug descriptions
+[21:05:10] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[21:05:10] [Render thread/INFO]: Iris detected.
+[21:05:11] [Render thread/INFO]: JamLib has been initialized on the client
+[21:05:11] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack ?
+[21:05:11] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[21:05:11] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[21:05:11] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[21:05:11] [Render thread/INFO]: Trying to load optifine compat!
+[21:05:11] [Render thread/INFO]: Optifine not found, not loading compatibility!
+[21:05:11] [Render thread/INFO]: Modern Industrialization client setup done!
+[21:05:11] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider AdornReiClient [adorn] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Adorn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/WARN]: The entrypoint used by AppleSkin, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider CharmReiClientPlugin [charm] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Charm, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/WARN]: The entrypoint used by Half Doors, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider HalfDoorsREIPlugin [halfdoors] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Jade, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider REICompat [jade] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Oxidized, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider OxidizedREIPlugin [oxidized] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Roughly Enough Resources, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider PluginEntry [roughlyenoughresources] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Tech Reborn, "rei" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider ReiPlugin [techreborn] for REIClientPlugin
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIClientPlugin
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Applied Energistics 2, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider AE2 [ae2] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by AE2WTLib, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider ae2wtlib [ae2wtlib] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Alloy Forgery, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider AlloyForgeryPlugin [alloy_forgery] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Better End, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Chipped, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider REIChippedPlugin [chipped] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Disenchanter, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider DisenchanterReiPlugin [disenchanter] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by KubeJS, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider KubeJSREIPlugin [kubejs] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider MIREIPlugin [modern_industrialization] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider FluidFuelsPlugin [modern_industrialization] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider ForgeHammerRecipePlugin [modern_industrialization] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider MachinesPlugin [modern_industrialization] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Modern Industrialization, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider NeutronInteractionPlugin [modern_industrialization] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by o?o, "rei_plugins" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider OwoReiPlugin [owo] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Botania, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider BotaniaREIPlugin [botania] for REIClientPlugin
+[21:05:11] [Render thread/WARN]: The entrypoint used by Sandwichable, "rei_plugins_v0" is deprecated and will be removed in a future version of Roughly Enough Items. Please use "rei_server", "rei_client" or "rei_common" instead.
+[21:05:11] [Render thread/INFO]: [REI] Registered plugin provider SandwichableREI [sandwichable] for REIClientPlugin
+[21:05:12] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[21:05:13] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[21:05:13] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[21:05:14] [Render thread/INFO]: Loaded client.properties
+[21:05:15] [Render thread/INFO]: Debug functionality is disabled.
+[21:05:15] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[21:05:15] [Render thread/INFO]: Shaders are disabled
+[21:05:15] [Render thread/INFO]: ARRP register - before vanilla
+[21:05:15] [Render thread/INFO]: ARRP register - after vanilla
+[21:05:16] [Render thread/INFO]: Hardware information:
+[21:05:16] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 1600 Six-Core Processor 
+[21:05:16] [Render thread/INFO]: GPU: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 516.59)
+[21:05:16] [Render thread/INFO]: OS: Windows 10 (10.0)
+[21:05:16] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\growing-patterns.json5" was read.
+[21:05:17] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[21:05:17] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Additional Additions, Adorn, Runtime Resource Pack, Advancements Debug, Applied Energistics 2, AE2WTLib, Alloy Forgery, Alternate Current, Animatica, AppleSkin, Arcanus, AutoTag, Axes Are Weapons, BCLib, Better End, BetterF3, Better Nether, Better Third Person, Blockus, Borderless Mining, Botania, Oh The Biomes You'll Go, Concurrent Chunk Management Engine, CaffeineConfig, Capes, Cardinal Components API (base), Cardinal Components API (chunks), Cardinal Components API (entities), Cardinal Components API (items), Cardinal Components API (world saves), Cardinal Components API (worlds), Cardinal Ice Boats, Carpet Mod, Carpet Extra, Charm, Chest Tracker, Chipped, Chromatic Currents, Clickable Advancements Mod, Cloth Config v6, CC: Restitched, conditional mixin, Continuity, Cooldown Coordinator, Crawl, Create, DarkPaintings, Diggus Maximus, DimensionalDoors, Disable Custom Worlds Advice, Disenchanter, Dripstone Fluid Lib, Ductwork, Dynamic Sound Filters, Eating Animation, EdenRing, Enhanced Block Entities, EntityCulling-Fabric, Exline's Doors, Experience Bottler, Explorer's Compass, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Language Kotlin, Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabrication, Fabric Loader, Fake Player API, Falling Leaves, Fast Load, Feature NBT Deadlock Be Gone - Fabric, Flywheel, Forge Config API Port, Gargantuan, Half Doors, Hookshot, Icarus, Indium, Interference API, Inventory Management, Iris, Jade, JamLib, Jankson, JsonEM, Kanos Config, Krypton, KubeJS, Kyrpt Config, LambDynamicLights, LazyDFU, LibGui, Lifts, Linkart, Lithium, Logical Zoom, Magna, Macaw's Bridges, Macaw's Doors, Macaw's Fences and Walls, Macaw's Lights and Lamps, Macaw's Paintings, Macaw's Paths and Pavings, Macaw's Roofs, Macaw's Trapdoors, Macaw's Windows, Memory Leak Fix, Milk Lib, Milk+, Manningham Mills, Mod-erate Loading Screen, Modern Industrialization, Mod Menu, More Culling, Nature's Compass, No More Useless Keys, No Indium?, NotEnoughAnimations, Not Enough Crashes, OmegaConfig, o?o, Oxidized, Patchouli, Pehkui, Phonos, Plant In A Jar, Pal, Porting Lib, Powah!, Presence Footsteps, Pride Lib, Reach Entity Attributes, Reborn Core, Red Bits, Redstone Bits, Reese's Sodium Options, Registrate for Fabric, Repurposed Structures, Right Click Harvest, Roughly Enough Items, Roughly Enough Resources, Sandwichable, Satin, Serialization Hooks, 3d Skin Layers, Smart Recipes, Smooth Boot, Show Me What You Got, Snow Pig, Sodium, Sodium Extra, spark, SpruceUI, Starlight, Step Height Entity Attribute, Sync (Fabric), Tax Free Levels, Energy, Tech Reborn, TerraBlender, Terraform Wood API (v1), Trinkets, Twigs, Very Many Players, Drip Sounds, Where Is It, World Cutters, Xaero's Minimap, Xaero's World Map), KubeJS Resource Pack [assets]
+[21:05:17] [Render thread/INFO]: closing rrp minecraft:phonos_data
+[21:05:17] [Render thread/INFO]: closing rrp minecraft:phonos_assets
+[21:05:17] [Render thread/INFO]: ARRP register - before vanilla
+[21:05:17] [Render thread/INFO]: ARRP register - after vanilla
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:05:18] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[21:05:18] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\settings.json5" was read.
+[21:05:18] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[21:05:18] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\surface_rules\end_surface_rules.json5" was read.
+[21:05:18] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[21:05:19] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_498::method_25394(Lnet/minecraft/class_4587;IIF)V has incompatible changes at opcode 24 in callback bclib.mixins.client.json:SignEditScreenMixin from mod bclib->@Inject::bclib_checkOffset(Lnet/minecraft/class_4587;IIFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;FLnet/minecraft/class_2680;ZZF)V.
  Expected: [F, Lnet/minecraft/class_2680;, Z, Z, F]
     Found: []
 Available: []
-[08:28:21] [Render thread/WARN]: @Final field field_25883:Lnet/minecraft/class_4970$class_4973; in charm.mixins.json:more_portal_frames.AddValidPortalFrameBlocksMixin from mod charm should be final
-[08:28:21] [Render thread/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$14 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$14)
-[08:28:21] [Render thread/INFO]: [STDERR]: org.objectweb.asm.tree.analysis.AnalyzerException: Error at instruction 919: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:296)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.generateLocalVariableTable(Locals.java:859)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getGeneratedLocalVariableTable(Locals.java:828)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:782)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:752)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:529)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:336)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.initLocals(LocalVariableDiscriminator.java:154)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.<init>(LocalVariableDiscriminator.java:148)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector$Context.<init>(ModifyVariableInjector.java:71)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector.preInject(ModifyVariableInjector.java:159)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.code.Injector.preInject(Injector.java:258)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.preInject(InjectionInfo.java:436)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1371)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1052)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:414)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:145)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.Class.forName0(Native Method)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.Class.forName(Class.java:467)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.findClass(MixinServiceKnot.java:96)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.audit(MixinProcessor.java:254)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.audit(MixinTransformer.java:171)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.MixinEnvironment.audit(MixinEnvironment.java:1425)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at ca.fxco.memoryleakfix.MemoryLeakFix.forceLoadAllMixinsAndClearSpongePoweredCache(MemoryLeakFix.java:25)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.redirect$glm000$loadAllMixinsThenShouldRenderAsync(Main.java:525)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:212)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:214)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:249)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.main(EntryPoint.java:34)
-[08:28:21] [Render thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.asm.MixinVerifier.isAssignableFrom(MixinVerifier.java:104)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.SimpleVerifier.isSubTypeOf(SimpleVerifier.java:212)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:400)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:44)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.executeInvokeInsn(Frame.java:682)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.execute(Frame.java:609)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:188)
-[08:28:21] [Render thread/INFO]: [STDERR]: 	... 46 more
-[08:28:22] [Render thread/INFO]: Successfully read save file.
-[08:28:22] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
-[08:28:22] [Render thread/INFO]: BYG: "Common Setup" Event Complete!
-[08:28:22] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\end-biomes.json5" was read.
-[08:28:22] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\nether-biomes.json5" was read.
-[08:28:22] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\trades.json5" was read.
-[08:28:22] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\biomepedia.json5" was read.
-[08:28:22] [Render thread/INFO]: Created compressed zip back up for "F:\MultiMC\instances\roosterface\.minecraft\config\byg" in "F:\MultiMC\instances\roosterface\.minecraft\config\byg\backups\last_working_configs_backup.zip"
-[08:28:22] [Render thread/INFO]: BYG: Compostible Blocks Added!
-[08:28:22] [Render thread/INFO]: BYG: Added tillables!
-[08:28:22] [Render thread/INFO]: BYG: Added Flammables!
-[08:28:22] [Render thread/INFO]: BYG: Added strippable Blocks...
-[08:28:22] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
-[08:28:22] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
-[08:28:22] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
-[08:28:24] [Render thread/INFO]: Xaero's Minimap: World Map found!
-[08:28:24] [Render thread/INFO]: No Optifine!
-[08:28:24] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
-[08:28:24] [Render thread/INFO]: New world map region cache hash code: 687554333
-[08:28:24] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
-[08:28:24] [Render thread/INFO]: No Optifine!
-[08:28:24] [Render thread/INFO]: No Vivecraft!
-[08:28:27] [Worker-Main-9/WARN]: Exception loading blockstate definition: byg:blockstates/potted_hydrangea_bush.json: java.io.FileNotFoundException: byg:blockstates/potted_hydrangea_bush.json
-[08:28:27] [Worker-Main-9/WARN]: Exception loading blockstate definition: 'byg:blockstates/potted_hydrangea_bush.json' missing model for variant: 'byg:potted_hydrangea_bush#'
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_1' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_1.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_3' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_3.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_4' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_4.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_1u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_1u.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_4u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_4u.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2u.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2u_opposite' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2u_opposite.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_u.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_3u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_3u.json
-[08:28:27] [Worker-Main-9/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2_opposite' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2_opposite.json
-[08:28:29] [Worker-Main-9/WARN]: Unable to load model: 'dimdoors:block/no_texture' referenced from: dimdoors:dimensional_portal#facing=north: java.io.FileNotFoundException: dimdoors:models/block/no_texture.json
-[08:28:29] [Worker-Main-9/WARN]: Unable to load model: 'dimdoors:block/detached_rift' referenced from: dimdoors:detached_rift#waterlogged=true: java.io.FileNotFoundException: dimdoors:models/block/detached_rift.json
-[08:28:29] [Render thread/INFO]: Stopping!
-[08:28:29] [Render thread/INFO]: Successfully wrote save file.
-[08:28:29] [Render thread/ERROR]: Shutdown failure!
-java.util.ConcurrentModificationException: null
-	at Not Enough Crashes deobfuscated stack trace.(1.18.2+build.4) ~[?:?]
-	at java.util.HashMap.forEach(HashMap.java:1424) ~[?:?]
-	at net.minecraft.client.texture.TextureManager.close(TextureManager:173) ~[?:?]
-	at net.minecraft.client.MinecraftClient.close(MinecraftClient:1048) ~[?:?]
-	at net.minecraft.client.MinecraftClient.stop(MinecraftClient:1026) ~[?:?]
-	at net.minecraft.client.main.Main.main(Main:252) [client-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.8.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.8.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.8.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:214) [NewLaunch.jar:?]
-	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:249) [NewLaunch.jar:?]
-	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
-	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[21:05:20] [Render thread/WARN]: @Redirect conflict. Skipping mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixSidewaysInnerFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000, already redirected by mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixBackwardUpFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000
+[21:05:21] [Render thread/WARN]: @Final field field_25883:Lnet/minecraft/class_4970$class_4973; in charm.mixins.json:more_portal_frames.AddValidPortalFrameBlocksMixin from mod charm should be final
+[21:05:21] [Render thread/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$14 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$14)
+[21:05:21] [Render thread/INFO]: [STDERR]: org.objectweb.asm.tree.analysis.AnalyzerException: Error at instruction 919: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:296)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.generateLocalVariableTable(Locals.java:859)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getGeneratedLocalVariableTable(Locals.java:828)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:782)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:752)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:529)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:336)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.initLocals(LocalVariableDiscriminator.java:154)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.LocalVariableDiscriminator$Context.<init>(LocalVariableDiscriminator.java:148)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector$Context.<init>(ModifyVariableInjector.java:71)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.modify.ModifyVariableInjector.preInject(ModifyVariableInjector.java:159)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.code.Injector.preInject(Injector.java:258)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.preInject(InjectionInfo.java:436)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1371)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1052)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:414)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:145)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.Class.forName0(Native Method)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.Class.forName(Class.java:467)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.findClass(MixinServiceKnot.java:96)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.audit(MixinProcessor.java:254)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.audit(MixinTransformer.java:171)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.MixinEnvironment.audit(MixinEnvironment.java:1425)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at ca.fxco.memoryleakfix.MemoryLeakFix.forceLoadAllMixinsAndClearSpongePoweredCache(MemoryLeakFix.java:25)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.redirect$hbc000$loadAllMixinsThenShouldRenderAsync(Main.java:525)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:212)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:214)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:249)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[21:05:21] [Render thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.hasSuperClass(org.spongepowered.asm.mixin.transformer.ClassInfo)" because the return value of "org.spongepowered.asm.mixin.transformer.ClassInfo.forType(org.objectweb.asm.Type, org.spongepowered.asm.mixin.transformer.ClassInfo$TypeLookup)" is null
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.asm.MixinVerifier.isAssignableFrom(MixinVerifier.java:104)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.SimpleVerifier.isSubTypeOf(SimpleVerifier.java:212)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:400)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.BasicVerifier.naryOperation(BasicVerifier.java:44)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.executeInvokeInsn(Frame.java:682)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.execute(Frame.java:609)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:188)
+[21:05:21] [Render thread/INFO]: [STDERR]: 	... 46 more
+[21:05:21] [Render thread/INFO]: Successfully read save file.
+[21:05:21] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[21:05:21] [Render thread/INFO]: BYG: "Common Setup" Event Complete!
+[21:05:21] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\end-biomes.json5" was read.
+[21:05:21] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\nether-biomes.json5" was read.
+[21:05:21] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\trades.json5" was read.
+[21:05:21] [Render thread/INFO]: "F:\MultiMC\instances\roosterface\.minecraft\config\byg\biomepedia.json5" was read.
+[21:05:21] [Render thread/INFO]: Created compressed zip back up for "F:\MultiMC\instances\roosterface\.minecraft\config\byg" in "F:\MultiMC\instances\roosterface\.minecraft\config\byg\backups\last_working_configs_backup.zip"
+[21:05:21] [Render thread/INFO]: BYG: Compostible Blocks Added!
+[21:05:21] [Render thread/INFO]: BYG: Added tillables!
+[21:05:21] [Render thread/INFO]: BYG: Added Flammables!
+[21:05:21] [Render thread/INFO]: BYG: Added strippable Blocks...
+[21:05:21] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
+[21:05:21] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[21:05:21] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[21:05:22] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[21:05:22] [Render thread/INFO]: No Optifine!
+[21:05:22] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[21:05:22] [Render thread/INFO]: New world map region cache hash code: 687554333
+[21:05:22] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[21:05:22] [Render thread/INFO]: No Optifine!
+[21:05:22] [Render thread/INFO]: No Vivecraft!
+[21:05:25] [Worker-Main-1/WARN]: Exception loading blockstate definition: byg:blockstates/potted_hydrangea_bush.json: java.io.FileNotFoundException: byg:blockstates/potted_hydrangea_bush.json
+[21:05:25] [Worker-Main-1/WARN]: Exception loading blockstate definition: 'byg:blockstates/potted_hydrangea_bush.json' missing model for variant: 'byg:potted_hydrangea_bush#'
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_1' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_1.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_3' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_3.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_4' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_4.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_1u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_1u.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_4u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_4u.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2u.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2u_opposite' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2u_opposite.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_u.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_3u' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_3u.json
+[21:05:26] [Worker-Main-1/WARN]: Unable to load model: 'chipped:block/vines/vine_9/vine_9_2_opposite' referenced from: chipped:vine_17#east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: chipped:models/block/vines/vine_9/vine_9_2_opposite.json
+[21:05:27] [Worker-Main-1/WARN]: Unable to load model: 'dimdoors:block/no_texture' referenced from: dimdoors:dimensional_portal#facing=north: java.io.FileNotFoundException: dimdoors:models/block/no_texture.json
+[21:05:27] [Worker-Main-1/WARN]: Unable to load model: 'dimdoors:block/detached_rift' referenced from: dimdoors:detached_rift#waterlogged=true: java.io.FileNotFoundException: dimdoors:models/block/detached_rift.json
+[21:06:12] [Worker-Main-1/WARN]: Unable to load model: 'minecraft:copper_kiln' referenced from: oxidized:copper_kiln#facing=north,lit=true: java.io.FileNotFoundException: minecraft:models/copper_kiln.json
+[21:06:15] [Worker-Main-1/WARN]: Unable to load model: 'dimdoors:stone_player#inventory' referenced from: dimdoors:stone_player#inventory: java.io.FileNotFoundException: dimdoors:models/item/stone_player.json
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_2u
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_1u
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_2
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_3u
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_2_opposite
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missing in dimdoors:block/stone_player
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_4u
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_3
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_1
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_2u_opposite
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missing in disenchanter:item/disenchanter
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missing in disenchanter:block/disenchanter
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_u
+[21:06:53] [Worker-Main-1/WARN]: Unable to resolve texture reference: #missingno in chipped:block/vine_17_4
+[21:06:54] [Worker-Main-6/ERROR]: Using missing texture, unable to load chipped:textures/block/mechanist_workbench.png : java.io.FileNotFoundException: chipped:textures/block/mechanist_workbench.png
+[21:06:54] [Worker-Main-2/ERROR]: Using missing texture, unable to load chipped:textures/block/carpenters_table.png : java.io.FileNotFoundException: chipped:textures/block/carpenters_table.png
+[21:06:54] [Worker-Main-9/ERROR]: Using missing texture, unable to load minecraft:textures/0.png : java.io.FileNotFoundException: minecraft:textures/0.png
+[21:06:54] [Worker-Main-6/ERROR]: Using missing texture, unable to load chipped:textures/block/loom_table.png : java.io.FileNotFoundException: chipped:textures/block/loom_table.png
+[21:06:54] [Worker-Main-8/ERROR]: Using missing texture, unable to load chipped:textures/block/mason_table.png : java.io.FileNotFoundException: chipped:textures/block/mason_table.png
+[21:06:54] [Worker-Main-3/ERROR]: Using missing texture, unable to load chipped:textures/block/glassblower.png : java.io.FileNotFoundException: chipped:textures/block/glassblower.png
+[21:06:54] [Worker-Main-9/ERROR]: Using missing texture, unable to load chipped:textures/block/botanist_workbench.png : java.io.FileNotFoundException: chipped:textures/block/botanist_workbench.png
+[21:07:16] [Render thread/INFO]: 'language' is an unsupported metadata key!
+[21:07:16] [Render thread/INFO]: 'language' is an unsupported metadata key!
+[21:07:16] [Render thread/INFO]: Starting Crowdin translation loading...
+[21:07:16] [Render thread/INFO]: Finished Crowdin translation loading.
+[21:07:16] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[21:07:16] [Render thread/INFO]: Sound engine started
+[21:07:16] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[21:07:16] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:07:16] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:07:16] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:07:16] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[21:07:16] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:07:16] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:07:29] [Render thread/WARN]: Shader botania__film_grain_particle could not find sampler named Sampler2 in the specified shader program.
+[21:07:29] [Render thread/WARN]: Shader rendertype_arcanus_magic could not find uniform named ColorModulator in the specified shader program.
+[21:07:30] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:07:30] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:07:30] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:07:31] [Render thread/INFO]: Loaded all shader sources.
+[21:07:31] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 264 jsons
+[21:07:31] [Render thread/INFO]: Not reloading resource pack-based books as client world is missing
+[21:07:31] [Render thread/INFO]: Skipping non-result value minecraft:lantern=UNASSIGNED
+[21:07:31] [Render thread/INFO]: Skipping non-result value minecraft:soul_lantern=UNASSIGNED
+[21:07:31] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[21:07:31] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:31] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:07:37] [Render thread/ERROR]: No GUI provider registered for field 'public java.util.Set org.dimdev.dimdoors.ModConfig$Doors$DoorList.doors'!
+[21:07:56] [Render thread/WARN]: Warning! Mod betterdarkmode has a broken icon, loading default icon
+[21:08:05] [Render thread/WARN]: Warning! Mod betterdarkmode has a broken icon, loading default icon
+[21:08:05] [Render thread/WARN]: Warning! Mod betterdarkmode has a broken icon, loading default icon
+[21:08:05] [Render thread/WARN]: Warning! Mod betterdarkmode has a broken icon, loading default icon
+[21:08:06] [Render thread/WARN]: Warning! Mod betterdarkmode has a broken icon, loading default icon
+[21:08:06] [Render thread/WARN]: Warning! Mod betterdarkmode has a broken icon, loading default icon
+[21:08:07] [Render thread/WARN]: Warning! Mod betterdarkmode has a broken icon, loading default icon
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:12] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: This line is printed by the mod mixin!
+[21:08:15] [Render thread/INFO]: Stopping!
+[21:08:15] [Render thread/INFO]: Successfully wrote save file.
+[21:08:16] [Render thread/INFO]: closing rrp minecraft:phonos_data
+[21:08:16] [Render thread/INFO]: closing rrp minecraft:phonos_assets
+[21:08:16] [CullThread/INFO]: [STDOUT]: Shutting down culling task!

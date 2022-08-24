@@ -22,23 +22,27 @@ mode = "fancy"
 			[light_sources.settings.entities.minecraft]
 				chicken = true
 				bee = true
+				axolotl = true
 				egg = true
 				arrow = true
 				donkey = true
 				cow = true
 				chest_minecart = true
 				fox = true
+				tropical_fish = true
 				slime = true
 				pig = true
 				skeleton = true
 				iron_golem = true
 				bat = true
+				rabbit = true
 				zombie = true
 				drowned = true
 				sheep = true
 				experience_orb = true
 				player = true
 				item = true
+				turtle = true
 				wolf = true
 				villager = true
 				salmon = true
@@ -47,6 +51,7 @@ mode = "fancy"
 				furnace_minecart = true
 				horse = true
 				minecart = true
+				cave_spider = true
 				glow_squid = true
 				cod = true
 				witch = true
@@ -55,4 +60,7 @@ mode = "fancy"
 				spider = true
 				creeper = true
 				enderman = true
+
+			[light_sources.settings.entities.dimdoors]
+				monolith = true
 

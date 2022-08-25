@@ -1,0 +1,345 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 8/24/22, 8:34 PM
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'terrablender'!
+	at Not Enough Crashes deobfuscated stack trace.(1.18.2+build.4)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$2(EntrypointUtils.java:63)
+	at org.quiltmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:61)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invokeContainer(EntrypointUtils.java:46)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:33)
+	at org.quiltmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient:452)
+	at net.minecraft.client.main.Main.main(Main:197)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423)
+	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76)
+	at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:214)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:249)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+	Suppressed: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_634 failed
+		at net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents.lambda$static$1(ClientPlayConnectionEvents.java:39)
+		at net.fabricmc.fabric.impl.base.event.ArrayBackedEvent.update(ArrayBackedEvent.java:57)
+		at net.fabricmc.fabric.impl.base.event.ArrayBackedEvent.<init>(ArrayBackedEvent.java:53)
+		at net.fabricmc.fabric.impl.base.event.EventFactoryImpl.createArrayBacked(EventFactoryImpl.java:44)
+		at net.fabricmc.fabric.api.event.EventFactory.createArrayBacked(EventFactory.java:63)
+		at net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents.<clinit>(ClientPlayConnectionEvents.java:39)
+		at io.wispforest.owo.network.OwoHandshake.<clinit>(OwoHandshake.java:75)
+		at io.wispforest.owo.particles.systems.ParticleSystemController.<clinit>(ParticleSystemController.java:137)
+		at wraith.alloyforgery.AlloyForgery.<clinit>(AlloyForgery.java:35)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:467)
+		at org.quiltmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:49)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:112)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointStorage.lambda$getEntrypointContainers$1(EntrypointStorage.java:220)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:51)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke$0(EntrypointUtils.java:33)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:59)
+		... 20 more
+	Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_634 failed
+		at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:248)
+		at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:146)
+		at org.quiltmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:156)
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+		... 37 more
+	Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+		at Not Enough Crashes deobfuscated stack trace.(1.18.2+build.4)
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+		at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:243)
+		... 40 more
+	Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: LVT in net/minecraft/class_634::method_11112(Lnet/minecraft/class_2604;)V has incompatible changes at opcode 63 in callback charm.mixins.json:event.ClientSpawnEntityMixin from mod charm->@Inject::hookOnEntitySpawn(Lnet/minecraft/class_2604;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/class_1299;)V.
+ Expected: [Lnet/minecraft/class_1299;]
+    Found: []
+Available: []
+		at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:547)
+		at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:497)
+		at org.spongepowered.asm.mixin.injection.code.Injector.inject(Injector.java:276)
+		at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.inject(InjectionInfo.java:445)
+		at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1378)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1052)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+		... 43 more
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents
+		at io.github.fabricators_of_create.porting_lib.util.TierSortingRegistry$ClientEvents.init(TierSortingRegistry.java:355)
+		at io.github.fabricators_of_create.porting_lib.util.TierSortingRegistry.init(TierSortingRegistry.java:234)
+		at io.github.fabricators_of_create.porting_lib.PortingLib.onInitialize(PortingLib.java:27)
+		at org.quiltmc.loader.impl.game.minecraft.Hooks.lambda$startClient$0(Hooks.java:52)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke$0(EntrypointUtils.java:33)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:59)
+		... 20 more
+	Suppressed: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_634 failed
+		at dan200.computercraft.shared.network.NetworkHandler$ClientHandler.setup(NetworkHandler.java:150)
+		at dan200.computercraft.shared.network.NetworkHandler.setup(NetworkHandler.java:56)
+		at dan200.computercraft.shared.proxy.ComputerCraftProxyCommon.init(ComputerCraftProxyCommon.java:58)
+		at dan200.computercraft.ComputerCraft.onInitialize(ComputerCraft.java:104)
+		at java.lang.invoke.MethodHandleProxies$1.invoke(MethodHandleProxies.java:198)
+		at com.sun.proxy.jdk.proxy2.$Proxy53.onInitialize(Unknown Source)
+		at org.quiltmc.loader.impl.game.minecraft.Hooks.lambda$startClient$0(Hooks.java:52)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke$0(EntrypointUtils.java:33)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:59)
+		... 20 more
+	Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_634 failed
+		at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:248)
+		at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:146)
+		at org.quiltmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:156)
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+		... 29 more
+	Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+		at Not Enough Crashes deobfuscated stack trace.(1.18.2+build.4)
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+		at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:243)
+		... 32 more
+	Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: LVT in net/minecraft/class_634::method_11112(Lnet/minecraft/class_2604;)V has incompatible changes at opcode 63 in callback charm.mixins.json:event.ClientSpawnEntityMixin from mod charm->@Inject::hookOnEntitySpawn(Lnet/minecraft/class_2604;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/class_1299;)V.
+ Expected: [Lnet/minecraft/class_1299;]
+    Found: []
+Available: []
+		at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:547)
+		at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:497)
+		at org.spongepowered.asm.mixin.injection.code.Injector.inject(Injector.java:276)
+		at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.inject(InjectionInfo.java:445)
+		at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1378)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1052)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+		... 35 more
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents
+		at snownee.jade.util.ClientPlatformProxy.init(ClientPlatformProxy.java:94)
+		at snownee.jade.util.PlatformProxy.init(PlatformProxy.java:65)
+		at snownee.jade.Jade.onInitialize(Jade.java:78)
+		at org.quiltmc.loader.impl.game.minecraft.Hooks.lambda$startClient$0(Hooks.java:52)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke$0(EntrypointUtils.java:33)
+		at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:59)
+		... 20 more
+Caused by: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_634 failed
+	at potionstudios.byg.network.FabricNetworkHandler$ClientProxy.registerClientReceiver(FabricNetworkHandler.java:75)
+	at potionstudios.byg.network.FabricNetworkHandler.registerMessage(FabricNetworkHandler.java:46)
+	at potionstudios.byg.network.FabricNetworkHandler.register(FabricNetworkHandler.java:34)
+	at java.util.HashMap.forEach(HashMap.java:1421)
+	at potionstudios.byg.network.FabricNetworkHandler.init(FabricNetworkHandler.java:30)
+	at potionstudios.byg.BYGFabric.initializeBYG(BYGFabric.java:52)
+	at potionstudios.byg.entry.BYGTerraBlenderEntry.onTerraBlenderInitialized(BYGTerraBlenderEntry.java:21)
+	at terrablender.core.TerraBlenderFabric.lambda$onInitialize$1(TerraBlenderFabric.java:44)
+	at java.util.ArrayList.forEach(ArrayList.java:1511)
+	at terrablender.core.TerraBlenderFabric.onInitialize(TerraBlenderFabric.java:42)
+	at org.quiltmc.loader.impl.game.minecraft.Hooks.lambda$startClient$0(Hooks.java:52)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke$0(EntrypointUtils.java:33)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:59)
+	... 20 more
+Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_634 failed
+	at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:248)
+	at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:146)
+	at org.quiltmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:156)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 33 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at Not Enough Crashes deobfuscated stack trace.(1.18.2+build.4)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:243)
+	... 36 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: LVT in net/minecraft/class_634::method_11112(Lnet/minecraft/class_2604;)V has incompatible changes at opcode 63 in callback charm.mixins.json:event.ClientSpawnEntityMixin from mod charm->@Inject::hookOnEntitySpawn(Lnet/minecraft/class_2604;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/class_1299;)V.
+ Expected: [Lnet/minecraft/class_1299;]
+    Found: []
+Available: []
+	at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:547)
+	at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.inject(CallbackInjector.java:497)
+	at org.spongepowered.asm.mixin.injection.code.Injector.inject(Injector.java:276)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.inject(InjectionInfo.java:445)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1378)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1052)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 39 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$2(EntrypointUtils.java:63)
+	at org.quiltmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:61)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invokeContainer(EntrypointUtils.java:46)
+	at org.quiltmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:33)
+	at org.quiltmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at net.minecraft.class_310.<init>(class_310.java:452)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.19041.867 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.19041.1620 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.19041.1741 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.19041.1741 (WinBuild.160101.0800):Microsoft Corporation
+		MSVCR90.dll:Microsoft® C Runtime Library:9.00.30729.9625:Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.2205.7 (WinBuild.160101.0800):Microsoft Corporation
+		NLAapi.dll:Network Location Awareness 2:10.0.19041.1151 (WinBuild.160101.0800):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.19041.610 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		Ole32.dll:Microsoft OLE for Windows:10.0.19041.1320 (WinBuild.160101.0800):Microsoft Corporation
+		OleAut32.dll:OLEAUT32.DLL:10.0.19041.985 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Performance Data Helper DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.19041.964 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.19041.1081 (WinBuild.160101.0800):Microsoft Corporation
+		WSOCK32.dll:Windows Socket 32-Bit DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		Wldp.dll:Windows Lockdown Policy:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.19041.1620 (WinBuild.160101.0800):Microsoft Corporation
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.19041.1415 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.19041.1320 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.19041.789 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:DHCP Client Service:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:DHCPv6 Client:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		fwpuclnt.dll:FWP/IPsec User-Mode API:10.0.19041.1503 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.19041.1706 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll
+		java.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		javaw.exe:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		jimage.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		jli.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		jna18185630674826870335.dll:JNA native library:6.1.2:Java(TM) Native Access (JNA)
+		jvm.dll:OpenJDK 64-Bit server VM:17.0.1.0:Eclipse Adoptium
+		kernel.appcore.dll:AppModel API Host:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		lwjgl_stb.dll
+		management.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		management_ext.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		msvcp140.dll:Microsoft® C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.19041.789 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		nimdnsNSP.dll:National Instruments Zeroconf Namespace Service Provider:214.3.1f4:National Instruments Corporation
+		nimdnsResponder.dll:National Instruments Zeroconf Library:214.3.1f4:National Instruments Corporation
+		nio.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		ntdll.dll:NT Layer DLL:10.0.19041.1741 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows System Performance Objects DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP Name Space Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.19041.844 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		svml.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.19041.789 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+		win32u.dll:Win32u:10.0.19041.1889 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.19041.546 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:17.0.1.0:Eclipse Adoptium
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:197)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423)
+	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76)
+	at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:214)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:249)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.1, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 2085123912 bytes (1988 MiB) / 3573547008 bytes (3408 MiB) up to 12004098048 bytes (11448 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 1600 Six-Core Processor            
+	Identifier: AuthenticAMD Family 23 Model 8 Stepping 2
+	Microarchitecture: Zen+
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 1050 Ti
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1c82
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.1659
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 21736.26
+	Virtual memory used (MB): 17652.79
+	Swap memory total (MB): 5400.95
+	Swap memory used (MB): 253.31
+	JVM Flags: 12 total; -XX:ParallelGCThreads=4 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:NewRatio=3 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms1024m -Xmx11445m
+	Fabric Mods: ERR
+	Flywheel Backend: Uninitialized
+	Launched Version: 1.18.2
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'quilt'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Suspected Mods: Jade (jade), Porting Lib (porting_lib), Quilt Loader (quilt_loader), Minecraft (minecraft), Fabric API Base (fabric-api-base), CC: Restitched (computercraft), TerraBlender (terrablender), Oh The Biomes You'll Go (byg)

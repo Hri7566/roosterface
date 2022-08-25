@@ -64,3 +64,6 @@ mode = "fancy"
 			[light_sources.settings.entities.dimdoors]
 				monolith = true
 
+			[light_sources.settings.entities.fishofthieves]
+				pondie = true
+

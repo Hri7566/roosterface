@@ -14,7 +14,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:true
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["Fabric Mods"]
+resourcePacks:["vanilla","Fabric Mods","loadmyresources.hiddenpack"]
 incompatibleResourcePacks:[]
 lastServer:mc.hri7566.info:25566
 lang:en_us
